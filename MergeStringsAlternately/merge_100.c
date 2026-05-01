@@ -1,3 +1,4 @@
+#include "merge.h"
 // Easy solution to get 100% runtime (0ms, 8.8 Memory)
 
 int ft_strlen(char *str)

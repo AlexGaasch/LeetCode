@@ -1,3 +1,4 @@
+#include "merge.h"
 // My solution to get a bit better memory usage. 100% runtime (0ms) and 75% memory 8.6 MB
 
 char* mergeAlternately(const char* word1, const char* word2) {
