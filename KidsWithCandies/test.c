@@ -30,10 +30,10 @@ void run_test(int test_num, int* candies, int size, int extra, bool* expected, i
 	total_tests++;
 
     int returnSize = 0;
-	int passed = 0;
     bool* result = kidsWithCandies(candies, size, extra, &returnSize);
 
     clock_t end = clock();
+	int passed = 0;
     double time_taken = (double)(end - start) / CLOCKS_PER_SEC;
 
     size_t mem_used = size * sizeof(bool);
